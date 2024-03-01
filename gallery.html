@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AAA Blogspot</title>
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Bootstrap Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark navbar-expand-lg bg-aaa sticky-top">
+            <div class="container-fluid px-4 py-1">
+                <a class="navbar-brand" href="https://awesome-ars-academia.net/">
+                    <img src="images/logo.png" alt="Logo" width="30" class="d-inline-block align-middle">
+                    AAA Blogspot
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Welcome to AAA</a></li>
+                                <li><a class="dropdown-item" href="#">AAA Courses</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Why Choose AAA</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                    <a href="contact.html"><button class="btn btn-outline-light shadow-sm" type="submit">Enroll
+                            Here</button></a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Teacher's Profile -->
+        <section class="container-fluid my-4">
+            <h2 class="text-center mb-4">Meet the AAA Teachers</h2>
+            <div id="carouselExampleIndicators" class="carousel carousel-dark slide">
+                <!-- <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div> -->
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="card-group container gap-5 w-50 my-3">
+                            <!-- Left Card -->
+                            <div class="card border-0">
+                                <img src="images/tantan.jpg" class="card-img-top img-fluid rounded-4 shadow"
+                                    alt="Tantan" width="300" data-bs-toggle="collapse" href="#multiCollapseExample1"
+                                    role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Tantan</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Gained one year of industry experience at three different
+                                            companies while in college. He learned various languages such as Java,
+                                            Python, and Typescript. He joined Sun Asterisk as a new graduate and in his
+                                            first year, he participated in the largest project and contributed to the
+                                            success of the project. Recently, he is interest in studying robotics and
+                                            other subjects besides web development.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Middle Card -->
+                            <div class="card border-0">
+                                <img src="images/janzen.png" class="card-img-top img-fluid rounded-4 shadow"
+                                    alt="Janzen" width="300" data-bs-toggle="collapse" href="#multiCollapseExample2"
+                                    role="button" aria-expanded="false" aria-controls="multiCollapseExample2">
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Janzen</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Janzen has been interested in Web Development since
+                                            elementary school. After working as an intern, she worked as a front-end
+                                            developer. She joined Sun Asterisk last November 2020 and learned various
+                                            frameworks such as React and Ruby on Rails. Currently, she's working in the
+                                            Education Team.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="card-group container gap-3 w-75 my-3">
+                            <!-- Left Card -->
+                            <div class="card border-0">
+                                <img src="images/dee.jpg" class="card-img-top img-fluid rounded-4 shadow" alt="Dee"
+                                    width="300" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                                    aria-expanded="false" aria-controls="multiCollapseExample1">
+                                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Dether</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Dether loves cooking and watching anime. He's watched
+                                            "Tensei Tareta Dareta Slyumu Datta Katachi", "Shii no Yusha no Norikatta",
+                                            "Kono Koukoukai Sekai ni Blessed be!" etc. As a teacher, he always looks
+                                            forward to accomplishing many great things with his students!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Middle Card -->
+                            <div class="card border-0">
+                                <img src="images/elaine.png" class="card-img-top img-fluid rounded-4 shadow"
+                                    alt="Elaine" width="300" data-bs-toggle="collapse" href="#multiCollapseExample2"
+                                    role="button" aria-expanded="false" aria-controls="multiCollapseExample2">
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Elaine</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Elaine loves to learning especially about foreign cultures!
+                                            She particularly likes Japanese culture and her hobbies includes watching
+                                            anime and reading novels & manga. Her favorite anime is "Haikyuu!".
+                                            In her role as a teacher, she finds great joy in leading her students
+                                            towards reaching their maximum capabilities!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Right Card -->
+                            <div class="card border-0">
+                                <img src="images/fiona.jpeg" class="card-img-top img-fluid rounded-4 shadow" alt="Fiona"
+                                    width="300" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
+                                    aria-expanded="false" aria-controls="multiCollapseExample3">
+                                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Fiona</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Fiona loves meeting new people, sharing her knowledge and
+                                            also learning something from them. Since graduationg from college, she has
+                                            been teaching English and enjoys this job very much. Her favorite things to
+                                            do are drawing and hanging out with friends.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <div class="card-group container gap-3 w-75 my-3">
+                            <!-- Left Card -->
+                            <div class="card border-0">
+                                <img src="images/goldie.jpeg" class="card-img-top img-fluid rounded-4 shadow"
+                                    alt="Goldie" width="300" data-bs-toggle="collapse" href="#multiCollapseExample1"
+                                    role="button" aria-expanded="false" aria-controls="multiCollapseExample1">
+                                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Goldie</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Goldie has been teaching for 5 years. She likes watching
+                                            anime, reading manga, and drawing characters.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Middle Card -->
+                            <div class="card border-0">
+                                <img src="images/jesamae.png" class="card-img-top img-fluid rounded-4 shadow"
+                                    alt="Jesamae" width="300" data-bs-toggle="collapse" href="#multiCollapseExample2"
+                                    role="button" aria-expanded="false" aria-controls="multiCollapseExample2">
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Jesamae</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Jesamae loves learning new things and teaching others. Her
+                                            hobbies include singing, dancing, playing musical instruments (especially
+                                            ukulele and guitar), and watching Japanese anime.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Right Card -->
+                            <div class="card border-0">
+                                <img src="images/jieno.jpeg" class="card-img-top img-fluid rounded-4 shadow" alt="Jieno"
+                                    width="300" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
+                                    aria-expanded="false" aria-controls="multiCollapseExample3">
+                                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Jieno</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Jieno has been a teacher for 3 years. He likes to watch
+                                            Japanese anime and science fiction series! He's also interested in
+                                            volunteering these days and he is now currently working as a Secretary in a
+                                            Youth Organization.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="carousel-item">
+                        <div class="card-group container gap-3 w-75 my-3">
+                            <!-- Left Card -->
+                            <div class="card border-0">
+                                <img src="images/jose.png" class="card-img-top img-fluid rounded-4 shadow" alt="Jose"
+                                    width="300" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                                    aria-expanded="false" aria-controls="multiCollapseExample1">
+                                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Jose</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Jose has loved computers since he was a teenager. He would
+                                            spend his allowance playing games at computer cafes. He became interested in
+                                            how games–like Minecraft and Skyrim– worked and began studying programming.
+                                            He also likes to teach programming to his younger brother, who also likes
+                                            programming.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Middle Card -->
+                            <div class="card border-0">
+                                <img src="images/nikka.jpeg" class="card-img-top img-fluid rounded-4 shadow" alt="Nikka"
+                                    width="300" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button"
+                                    aria-expanded="false" aria-controls="multiCollapseExample2">
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Nikka</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Since Nikka was a little girl, she loves to teach people
+                                            something. She also loves to see and learn new things. At AAA, she teaches
+                                            Web Design, Minecraft, JavaScript, and PHP Courses. She's also involved in
+                                            creating teaching materials and curriculums. Outside of work, she likes to
+                                            read books, watch history films, and documentaries.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Right Card -->
+                            <div class="card border-0">
+                                <img src="images/raya.jpg" class="card-img-top img-fluid rounded-4 shadow" alt="Raya"
+                                    width="300" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
+                                    aria-expanded="false" aria-controls="multiCollapseExample3">
+                                <div class="collapse multi-collapse" id="multiCollapseExample3">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Raya</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Raya likes teaching and learning, trying new things,
+                                            traveling, and sports. She always keen to getting to know her students and
+                                            learning together!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Slide 5 -->
+                    <div class="carousel-item">
+                        <div class="card-group container gap-5 w-50 my-3">
+                            <!-- Left Card -->
+                            <div class="card border-0">
+                                <img src="images/sheen.png" class="card-img-top img-fluid rounded-4 shadow" alt="Sheena"
+                                    width="300" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+                                    aria-expanded="false" aria-controls="multiCollapseExample1">
+                                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Sheena</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Sheen loves to drive around and find places to go for the
+                                            first time. Right now, she's passionate about researching the significance
+                                            of programming!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Middle Card -->
+                            <div class="card border-0">
+                                <img src="images/trisha.jpeg" class="card-img-top img-fluid rounded-4 shadow"
+                                    alt="Trisha" width="300" data-bs-toggle="collapse" href="#multiCollapseExample2"
+                                    role="button" aria-expanded="false" aria-controls="multiCollapseExample2">
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <div class="card-body">
+                                        <h5 class="card-title fs-3 fw-bold text-center">Trisha</h5>
+                                        <hr class="text-danger border-3">
+                                        <p class="card-text">Trisha likes to listen to music and play games. She also
+                                            likes to travel and enjoy meeting and talking to lots of people.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- AAA Activities -->
+        <section>
+            <h2 class="text-center mb-4">AAA Activities</h2>
+            <div class="container-fluid bg-black">
+                <div id="carouselExampleCaptions" class="carousel slide w-75 mb-5 container">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/act1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4><span class="badge bg-aaa">Entrance Ceremony</span></h4>
+                                <p>Discover the magic of new beginnings at our School Entrance Ceremony. Join us for a
+                                    memorable start to the academic journey!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/act2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4><span class="badge bg-aaa">Minecraft Course</span></h4>
+                                <p>Explore creativity, coding, and endless possibilities in our Minecraft Course.
+                                    Unleash your imagination block by block!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/act3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4><span class="badge bg-aaa">Winter Course Graduation Ceremony</span></h4>
+                                <p>Celebrate achievements, embrace memories. Experience the warmth of accomplishment at
+                                    our Winter Course Graduation Ceremony!</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/act4.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4><span class="badge bg-aaa">Regular Course Graduation Ceremony</span></h4>
+                                <p>Turning dreams into diplomas! Celebrate success with us at our regular courses'
+                                    Graduation Ceremony.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/act5.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h4><span class="badge bg-aaa">AAA Teachers' Monthly Gathering</span></h4>
+                                <p>Educators unite! Dive into insightful conversations and camaraderie at our Teachers'
+                                    Monthly Gathering.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="container-fluid justify-content-center text-white bg-aaa p-1 pt-3">
+                <a href="#"><i class="bi bi-facebook text-white fs-2"></i></a>
+                <a href="#"><i class="bi bi-twitter text-white fs-2"></i></a>
+                <a href="#"><i class="bi bi-instagram text-white fs-2"></i></a>
+                <a href="#"><i class="bi bi-inbox-fill text-white fs-2"></i></a><br>
+                <p class="text-white fs-5">&copy; 2023 AwesomeArsAcademia</p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS Script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>

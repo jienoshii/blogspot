@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AAA Blogspot</title>
+        <!-- CSS Link -->
+        <link rel="stylesheet" href="style.css">
+        <!-- Bootstrap Link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark navbar-expand-lg bg-aaa sticky-top">
+            <div class="container-fluid px-4 py-1">
+                <a class="navbar-brand" href="https://awesome-ars-academia.net/">
+                    <img src="images/logo.png" alt="Logo" width="30" class="d-inline-block align-middle">
+                    AAA Blog
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#welcome">Welcome to AAA</a></li>
+                                <li><a class="dropdown-item" href="#courses">AAA Courses</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#choose">Why Choose AAA</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                    </ul>
+                    <a href="contact.html"><button class="btn btn-outline-light" type="submit">Enroll Here</button></a>
+                </div>
+            </div>
+        </nav>
+
+        <section id="welcome">
+            <div class="container-fluid p-5 mb-4 bg-aaa-gradient p-2 text-dark">
+                <div class="p-2">
+                    <h1 class="display-5 fw-bold font-title text-center text-dark">Awesome Ars Academia</h1>
+                    <hr class="text-light border-4">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-5">
+                            <!-- Text -->
+                            <p class="fs-5 font-text">
+                                Unlock the boundless potential of the global IT industry with our cutting-edge vocational school, powered by a thriving software company in six vibrant cities spanning four countries!
+                                <br><br>
+                                Are you prepared to embark on a transformative journey that will revolutionize your career and open doors to endless opportunities in the world of Information Technology? Look no further! Our innovative vocational school, in collaboration with a dynamic software company, is here to empower you with the skills and knowledge necessary to unlock your true potential.
+                            </p>
+                        </div>
+                        <div class="col-7">
+                            <!-- Carousel -->
+                            <div class="w-100 shadow">
+                                <div id="carouselExample" class="carousel slide">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="images/welcome-img01.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/welcome-img02.jpg" class="d-block w-100" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/welcome-img03.png" class="d-block w-100" alt="...">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button"
+                                        data-bs-target="#carouselExample" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button"
+                                        data-bs-target="#carouselExample" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses">
+            <div class="container-fluid">
+                <h2 class="text-center text-aaa fw-bold">Courses Offered</h2>
+                <!-- Card Group 1 -->
+                <div class="card-group container gap-3 w-75 my-3">
+                    <!-- Left Card -->
+                    <div class="card border-0">
+                        <img src="images/2.png" class="card-img-top img-fluid" alt="Scratch" width="300">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Scratch</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Learn coding the fun way with Scratch! Our beginner-friendly course
+                                introduces you to the exciting world of programming through a visual, block-based
+                                interface. Create interactive stories, games, and animations while gaining essential
+                                coding skills. No prior experience required.</p>
+                        </div>
+                    </div>
+                    <!-- Middle Card -->
+                    <div class="card border-0">
+                        <img src="images/1.png" class="card-img-top" alt="Minecraft" width="300">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Minecraft Course</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Dive into the enchanting world of Minecraft with our versatile course!
+                                Whether you're a builder, a coder, or a creative genius, we have a path for you. </p>
+                        </div>
+                    </div>
+                    <!-- Right Card -->
+                    <div class="card border-0">
+                        <img src="images/3.png" class="card-img-top" alt="Web Design" width="300">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Web Design Course</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Welcome to the world of web design! Unlock the skills to create
+                                beautiful and functional websites with our Web Design Course. Whether you're a beginner
+                                or aspiring pro, this course will empower you to build digital experiences that
+                                captivate and inspire.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Group 2 -->
+                <div class="card-group container gap-3 w-75 my-3">
+                    <!-- Left Card -->
+                    <div class="card border-0">
+                        <img src="images/4.png" class="card-img-top img-fluid" alt="JavaScript">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">JavaScript Course</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Embark on a dynamic journey into the world of web development with our
+                                JavaScript Masterclass. Whether you're a beginner or a seasoned coder, this course is
+                                your gateway to crafting interactive and feature-rich websites and applications.</p>
+                        </div>
+                    </div>
+                    <!-- Middle Card -->
+                    <div class="card border-0">
+                        <img src="images/7.png" class="card-img-top" alt="PHP">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">PHP Course</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Step into the world of server-side web development with our PHP Mastery
+                                course. Whether you're a beginner seeking a solid foundation or an experienced developer
+                                looking to enhance your skills, this course empowers you to create dynamic and
+                                interactive web applications with PHP.</p>
+                        </div>
+                    </div>
+                    <!-- Right Card -->
+                    <div class="card border-0">
+                        <img src="images/8.png" class="card-img-top" alt="Python">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Python Course</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Embark on a journey into the world of coding with Python Essentials.
+                                Whether you're a complete beginner or an experienced programmer, this course is your
+                                gateway to mastering Python, a versatile and widely-used programming language.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Group 3 -->
+                <div class="card-group container gap-3 w-75 my-3">
+                    <!-- Left Card -->
+                    <div class="card border-0">
+                        <img src="images/5.png" class="card-img-top img-fluid" alt="Unity">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Unity Course</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Embark on an exciting journey into the realm of game development with
+                                our Unity Game Development course. Whether you're a gaming enthusiast, aspiring
+                                developer, or creative thinker, this course empowers you to craft immersive and
+                                interactive digital experiences using the powerful Unity engine.</p>
+                        </div>
+                    </div>
+                    <!-- Middle Card -->
+                    <div class="card border-0">
+                        <img src="images/9.png" class="card-img-top" alt="UE">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Unreal Engine Course</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Embark on a thrilling journey into the realm of 3D game and interactive
+                                content development with our Unreal Engine Mastery course. Whether you're an aspiring
+                                game developer, a 3D artist, or a creative visionary, this course empowers you to craft
+                                breathtaking virtual worlds using the renowned Unreal Engine.</p>
+                        </div>
+                    </div>
+                    <!-- Right Card -->
+                    <div class="card border-0">
+                        <img src="images/10.png" class="card-img-top" alt="Flutter">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Smart Phone Course</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Dive into the world of mobile app development with our Smart Phone
+                                course. Whether you're a beginner with a big idea or an experienced developer looking to
+                                create stunning cross-platform apps, this course empowers you to bring your visions to
+                                life with Flutter.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card Group 4 -->
+                <div class="card-group container gap-3 w-75 my-3">
+                    <!-- Left Card -->
+                    <div class="card border-0">
+                        <img src="images/11.png" class="card-img-top img-fluid" alt="Canva">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Canva Course</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Unlock your creative potential and design like a pro with our Canva
+                                Mastery course. Whether you're a marketing professional, a small business owner, or an
+                                aspiring graphic designer, this course empowers you to create stunning visuals and
+                                marketing materials using the versatile Canva platform.</p>
+                        </div>
+                    </div>
+                    <!-- Middle Card -->
+                    <div class="card border-0">
+                        <img src="images/6.png" class="card-img-top" alt="Laravel">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">Laravel Course</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Take your web development skills to the next level with our Laravel
+                                Mastery course. Whether you're an aspiring developer or an experienced coder, this
+                                course empowers you to create robust and scalable web applications using the popular
+                                Laravel framework.</p>
+                        </div>
+                    </div>
+                    <!-- Right Card -->
+                    <div class="card border-0">
+                        <img src="images/12.png" class="card-img-top" alt="SQL">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3 fw-bold">SQL Course</h5>
+                            <hr class="text-danger border-3">
+                            <p class="card-text">Dive into the world of data management and manipulation with our SQL
+                                Mastery course. Whether you're a budding data analyst, a business professional, or an IT
+                                enthusiast, this course empowers you to harness the full potential of SQL (Structured
+                                Query Language) for managing, querying, and extracting insights from databases.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="choose">
+            <div class="container-fluid p-5 mt-3 bg-black bg-gradient">
+                <div class="text-white p-2">
+                    <h2 class="text-center">Why Choose AAA?</h2>
+                    <h5 class="text-center">What Sets Us Apart</h5>
+                    <div class="card-group container w-75 gap-4 mt-4 mb-5 text-center">
+                        <div class="card p-1 rounded">
+                            <img src="https://cdn-icons-png.flaticon.com/512/4514/4514882.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Expertise and Experience</h5>
+                                <p class="card-text">With extensive years of experience in the teaching industry, our team of teachers brings unparalleled knowledge and skill to every class.</p>
+                            </div>
+                        </div>
+                        <div class="card p-1 rounded">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1478/1478890.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Customer-Centric Approach</h5>
+                                <p class="card-text">Our students are at the heart of everything we do. We listen, understand your needs, and tailor our courses to meet and exceed your expectations.</p>
+                            </div>
+                        </div>
+                        <div class="card p-1 rounded">
+                            <img src="https://cdn-icons-png.flaticon.com/512/5063/5063056.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Innovation and Adaptability</h5>
+                                <p class="card-text">In a constantly evolving technology, we stay ahead of the curve by embracing the latest technologies and trends, ensuring you receivee cut-edge education.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center">
+            <div class="container-fluid justify-content-center text-white bg-aaa p-1 pt-3">
+                <a href="#"><i class="bi bi-facebook text-white fs-2"></i></a>
+                <a href="#"><i class="bi bi-twitter text-white fs-2"></i></a>
+                <a href="#"><i class="bi bi-instagram text-white fs-2"></i></a>
+                <a href="#"><i class="bi bi-inbox-fill text-white fs-2"></i></a><br>
+                <p class="text-white fs-5">&copy; 2023 AwesomeArsAcademia</p>
+            </div>
+        </footer>
+
+        <!-- Bootstrap JS Script -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
